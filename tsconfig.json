@@ -1,0 +1,25 @@
+// This file is a template tsconfig file for plugins.
+// Copy this file and change its name to 'tsconfig.json' instead of put this file in "extends" option.
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "declaration": true,
+        "removeComments": true,
+        "importHelpers": true,
+        "downlevelIteration": true,
+        "newLine": "lf",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "skipLibCheck": true
+    },
+    "include": ["./src"],
+    "exclude": ["node_modules"]
+}

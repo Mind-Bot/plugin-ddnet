@@ -1,0 +1,8 @@
+{
+  "name": "plugin-ddnet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Mind-Bot/plugin-ddnet.git",
+  "author": "MindXL <1634300602@qq.com>",
+  "license": "MIT"
+}
